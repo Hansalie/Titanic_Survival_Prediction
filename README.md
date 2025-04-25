@@ -1,9 +1,9 @@
-# 🛳️ Titanic Survival Prediction
+# Titanic Survival Prediction
 
 A Kaggle‑style project that trains a **Logistic Regression** model to predict which passengers survived the Titanic disaster.  
 The workflow covers end‑to‑end data handling—cleaning, feature engineering, modelling, and evaluation—and produces a CSV ready for Kaggle submission.
 
-## 📂 Project Structure
+## Project Structure
 ```
 .
 ├── titanic_notebook.ipynb          # Full exploratory & modelling notebook           
@@ -17,7 +17,7 @@ The workflow covers end‑to‑end data handling—cleaning, feature engineering
 └── README.md
 ```
 
-## 📊 Dataset
+## Dataset
 - **Source:** Kaggle “Titanic – Machine Learning from Disaster”  
 - **Train set:** 891 rows × 12 columns (with `Survived`)  
 - **Test set:** 418 rows × 11 columns (no `Survived`)  
@@ -34,7 +34,7 @@ Key raw features:
 | `Embarked` | Port of embarkation (C/Q/S) |
 | `Cabin`, `Ticket`, `Name` | Free‑text identifiers (dropped) |
 
-## 🛠️ Methodology
+## Methodology
 
 | Step | Highlights |
 | ---- | ---------- |
@@ -45,7 +45,7 @@ Key raw features:
 | **5. Evaluation** | Confusion matrix, classification report, ROC‑AUC; validation accuracy ≈ **0.83**. |
 | **6. Inference** | Train on full set → predict `Survived` for Kaggle test → save `submission.csv`. |
 
-## 📈 Results
+## Results
 
 | Metric | Score |
 | ------ | ----- |
